@@ -1,6 +1,6 @@
 from pgpt_python.client import PrivateGPTApi
 
-client = PrivateGPTApi(base_url="http://localhost:8001")
+client = PrivateGPTApi(base_url="http://localhost:8061")
 
 # Health
 print(client.health.health())
